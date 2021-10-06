@@ -1,0 +1,64 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="Empty, App_Web_xurijcso" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Online_Charity_System</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+    <style type="text/css">
+        .style1
+        {
+            font-family: Harrington;
+        }
+        .style2
+        {
+            width: 100%;
+            border: 1px solid #00ff00;
+            background-color: #ff00ff;
+        }
+        .style3
+        {
+            height: 397px;
+        }
+    </style>
+</head>
+
+<body>
+  
+    <form id="form1" runat="server">
+  
+  <div id="main">
+    <div id="top_container">
+	  <header>
+        <div id="logo"><h1><span class="style1" style="font-size: 50px">Online</span>_<a 
+                href="#" style="font-size: 50px">Charity_System</a></h1></div>
+        <nav>
+          <ul class="lavaLampWithImage" id="lava_menu">
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="examples.html">Donor</a></li>
+            <li><a href="page.html">Child</a></li>
+            <li><a href="another_page.html">Help</a></li>
+            <li><a href="contact.php"></a></li>
+          </ul>
+        </nav>
+      </header>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <table class="style2">
+                <tr>
+                    <td class="style3">
+                    </td>
+                </tr>
+            </table>
+        </asp:ContentPlaceHolder>
+      
+      
+    </form>
+</body>
+
+</html>

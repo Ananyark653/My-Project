@@ -1,0 +1,115 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="admin_page, App_Web_xurijcso" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Online_Charity_System</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+    <style type="text/css">
+        .style1
+        {
+            font-family: Harrington;
+        }
+        .style2
+        {
+            font-size: xx-large;
+            font-family: Harrington;
+            color: #FF9999;
+        }
+        .style3
+        {
+            font-size: large;
+        }
+        .style4
+        {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+  
+    <form id="form1" runat="server">
+  
+  <div id="main">
+    <div id="top_container">
+	  <header>
+        <div id="logo"><h1><span class="style1" style="font-size: 50px">Online</span>_<a 
+                href="#" style="font-size: 50px">Charity_System</a></h1></div>
+        <nav>
+          <ul class="lavaLampWithImage" id="lava_menu">
+            <li class="current"><a href="admin.aspx">Home</a></li>
+            <li><a href="login.aspx">Donor</a></li>
+            <li><a href="login.aspx">Child</a></li>
+            <li><a href="help.aspx">Help</a></li>
+            <li><a href="contact.php">
+                
+                <asp:ImageButton ID="ImageButton1" runat="server" Height="52px" 
+                    ImageUrl="~/images/42.png" Width="71px" onclick="ImageButton1_Click" />
+                
+                </a></li>
+          
+         
+          </ul>
+        </nav>
+      </header>
+      <div class="slideshow">
+        <ul class="slideshow">
+          <li class="show"><img width="950" height="350"  /></li>
+          <li><img width="950" height="350" src="images/img9.jpg"  /></li>
+          
+        </ul>
+	      <br />
+          <asp:Image ID="Image1" runat="server" Height="139px" 
+              ImageUrl="~/images/ch2.jpg" Width="257px" />
+&nbsp;
+          <asp:Image ID="Image2" runat="server" Height="137px" 
+              ImageUrl="~/images/ch3.jpg" Width="233px" />
+&nbsp;
+          <asp:Image ID="Image3" runat="server" Height="134px" 
+              ImageUrl="~/images/ch4.jpg" Width="217px" />
+&nbsp;
+          <asp:Image ID="Image4" runat="server" Height="133px" 
+              ImageUrl="~/images/ch5.jpg" Width="206px" />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+	  </div>		
+    </div>	  
+
+    </form>
+    <p>
+        &nbsp;</p>
+    <p class="style2">
+        <strong style="font-size: 40px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        : Welcome To The World Of Charity :</strong></p>
+    <p class="style4">
+        <span class="style3">Charity is the act of giving help to those in need of it.It 
+        is a humanitarian act . It involves givinng money,goods or times and effort to 
+        those who need it, Giving money or food to poor is an example of charity. 
+        Charitable giving can be a responiblility in many religions. The kind of charity 
+        is called almsgiving Importance of Charity Donating your cash is a great way to 
+        reduce the amount of money you to reduce the amount of money you send off to 
+        Uncle sam,&amp; for a good causes, to boot ,when you donate money to charity. You 
+        create opprtunities to meet new people who believe in the same causes that 
+        inspire you. A charitable donation is a gift of cash or property made to a non 
+        profit organization to help it accomplish its goals for which the donor receive 
+        nothing of values in return Even exprnses related to cahritable contributions 
+        may be deducted. Gifts given directly to individuals ,even if done acts of 
+        charity,do not quality as tax-deductiblr charitable donations. Charity, a noble 
+        quality in a man ,brings welfare in the society. It enlarges human hearts an 
+        spreds messages of the brotherhood and innocent love among the people. The 
+        practice of charity was adored in ancient days. The saints and the sages lived 
+        on the alms offered by the affluent people.</span>
+    </p>
+</body>
+
+</html>
